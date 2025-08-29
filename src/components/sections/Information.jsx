@@ -21,10 +21,10 @@ export default function About() {
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gary-300 mb-6">
             หากเข้าเซิฟเวอร์ครั้งแรก กรอกชื่อในเกม
-            <span className="text-xl font-bold text-green-500">(username)</span>
-            และทุกครั้งต้องเชื่อมต่อ{" "}
-            <span className="text-xl font-bold text-green-500">
-              tailscale Vpn
+            <span className="text-xl font-bold text-green-500"> username </span>
+            และทุกครั้งก่อนเข้าเซิฟเวอร์ต้องทำการเชื่อมต่อ{" "}
+            <span className="text-xl font-bold text-green-500 cursor-pointer">
+              tailscale Vpn <a href="#howtojoin">(Click)</a>
             </span>{" "}
             ก่อนนะคับ
           </p>
@@ -87,15 +87,15 @@ export default function About() {
             </ul>
           </div>
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">New! update</h3>
+            <h3 className="text-xl font-bold mb-4">How to join & play</h3>
             <div className="space-y-4 text-gray-300">
               <div>
-                <h4>Plguin update</h4>
-                <p>all plugin update</p>
-              </div>
-              <div>
-                <h4>Website update</h4>
-                <p>design and implement</p>
+                <h4>วิธีการเชื่อมVPN</h4>
+                <p className="">
+                  <a href="" className="text-green-500">
+                    (Click)
+                  </a>
+                </p>
               </div>
             </div>
           </div>
