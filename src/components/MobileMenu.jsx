@@ -31,7 +31,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
         Home
       </a>
       <a
-        href="#about"
+        href="#information"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-tranform duration-300
                 ${
@@ -40,10 +40,10 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
                     : "opacity-0 translate-y-5"
                 }`}
       >
-        About
+        Information
       </a>
       <a
-        href="#proects"
+        href="#projects"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-tranform duration-300
                 ${
@@ -52,10 +52,10 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
                     : "opacity-0 translate-y-5"
                 }`}
       >
-        Projects
+        Plan
       </a>
       <a
-        href="#contact"
+        href="#discord"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-tranform duration-300
                 ${
@@ -64,7 +64,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
                     : "opacity-0 translate-y-5"
                 }`}
       >
-        Contact
+        Discord
       </a>
     </div>
   );
