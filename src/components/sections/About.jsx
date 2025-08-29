@@ -5,7 +5,7 @@ export default function About() {
   const backendSkill = ["Node.js", "Python", "Java", "MySql"];
   return (
     <section
-      id="abour"
+      id="about"
       className="min-h-screen flex items-center justify-center py-20"
     >
       <div className="max-w-3xl mx-auto px-4">
@@ -48,6 +48,29 @@ export default function About() {
                     {t}
                   </span>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="p-6 rounded-xl border-white/10 border  hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4">Education</h3>
+            <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                <strong> High School in Math-Eng </strong> - kanlayanee nst.
+              </li>
+              <li>
+                <strong>B.S. in Data Science and Technology</strong> - Mahidol
+                university.
+              </li>
+            </ul>
+          </div>
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+            <div className="space-y-4 text-gray-300">
+              <div>
+                <h4>System school at kanlayanee (2022-2024)</h4>
+                <p>Developd and maintained database for webapplications.</p>
               </div>
             </div>
           </div>
