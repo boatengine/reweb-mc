@@ -21,11 +21,9 @@ export default function About() {
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gary-300 mb-6">
             หากเข้าเซิฟเวอร์ครั้งแรก กรอกชื่อในเกม
-            <span className="text-xl font-bold text-emerald-500">
-              (username)
-            </span>
+            <span className="text-xl font-bold text-green-500">(username)</span>
             และทุกครั้งต้องเชื่อมต่อ{" "}
-            <span className="text-xl font-bold text-emerald-500">
+            <span className="text-xl font-bold text-green-500">
               tailscale Vpn
             </span>{" "}
             ก่อนนะคับ
@@ -42,7 +40,7 @@ export default function About() {
                   />
                   <button
                     type="submit"
-                    className="bg-emerald-500 rounded-r-xl px-3 p-2 cursor-pointer font-bold"
+                    className="bg-green-500 rounded-r-xl px-3 p-2 cursor-pointer font-bold"
                   >
                     Add
                   </button>
@@ -55,7 +53,7 @@ export default function About() {
                 {allWhitelist.map((t, k) => (
                   <span
                     key={k}
-                    className="bg-green-500/10 text-emerald-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20
+                    className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-emerald-500/20
                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
