@@ -50,7 +50,7 @@ export default function About() {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Online Player</h3>
+              <h3 className="text-xl font-bold mb-4">Online Player (2/10)</h3>
               <div className="flex flex-wrap gap-2">
                 {allWhitelist.map((t, k) => (
                   <span
@@ -70,6 +70,10 @@ export default function About() {
           <div className="p-6 rounded-xl border-white/10 border  hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">services status</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                <strong> TPS </strong> -{" "}
+                <span className="text-green-500">19.7</span>
+              </li>
               <li>
                 <strong> VPN </strong> -{" "}
                 <span className="text-yellow-500">Overload</span>.

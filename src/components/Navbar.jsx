@@ -39,7 +39,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             </a>
             <a
               href="#discord"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="bg-green-600 px-1 rounded-md text-gray-200 hover:text-white transition-colors"
             >
               Discord
             </a>
