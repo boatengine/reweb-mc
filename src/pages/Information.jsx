@@ -1,6 +1,6 @@
 import React from "react";
 import Addwhitelist from "../components/Addwhitelist";
-
+import Tps from "../components/Tps";
 export default function About() {
   const allWhitelist = [
     "g0dgameeiei",
@@ -60,8 +60,7 @@ export default function About() {
             <h3 className="text-xl font-bold mb-4">services status</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                <strong> TPS </strong> -{" "}
-                <span className="text-green-500">19.7</span>
+                <Tps />
               </li>
               <li>
                 <strong> VPN </strong> -{" "}
