@@ -32,10 +32,10 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Infomation
             </a>
             <a
-              href="#projects"
+              href="#friends"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Plan
+              Friends
             </a>
             <a
               href={`${import.meta.env.VITE_DISCORD}`}

@@ -43,7 +43,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
         Information
       </a>
       <a
-        href="#projects"
+        href="#friends"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-tranform duration-300
                 ${
@@ -52,7 +52,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
                     : "opacity-0 translate-y-5"
                 }`}
       >
-        Plan
+        Friends
       </a>
       <a
         href="#discord"
