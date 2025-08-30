@@ -13,7 +13,6 @@ export default function Onlineplayer() {
         setOnlinePlayer(respone.data.player.split(", "));
       }
       //   console.log(respone.data.player.split(", "));
-
       //   console.log("eiei");
     } catch (err) {
       console.log(err);

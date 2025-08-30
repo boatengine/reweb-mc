@@ -23,7 +23,8 @@ export default function Home() {
             View Status
           </a>
           <a
-            href="#contact"
+            href={`${import.meta.env.VITE_DISCORD}`}
+            target="_blank"
             className="border border-green-500/50 text-emerald-500 py-3 px-6 rounded font-medium transition-all duration-200
             hover:-translate-y-0.5 hover:bg-green -500/10"
           >

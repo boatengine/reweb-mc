@@ -27,7 +27,10 @@ export default function About() {
             <span className="text-xl font-bold text-green-500"> username </span>
             และทุกครั้งก่อนเข้าเซิฟเวอร์ต้องทำการเชื่อมต่อ{" "}
             <span className="text-xl font-bold text-green-500 cursor-pointer">
-              tailscale Vpn <a href="#howtojoin">(Click)</a>
+              tailscale Vpn{" "}
+              <a href={`${import.meta.env.VITE_HOWTOPLAY}`} target="_blank">
+                (Click)
+              </a>
             </span>{" "}
             ก่อนนะคับ
           </p>
@@ -72,7 +75,11 @@ export default function About() {
               <div>
                 <h4>วิธีการเชื่อมVPN</h4>
                 <p className="">
-                  <a href="" className="text-green-500">
+                  <a
+                    href={`${import.meta.env.VITE_HOWTOPLAY}`}
+                    target="_blank"
+                    className="text-green-500"
+                  >
                     (Click)
                   </a>
                 </p>

@@ -38,7 +38,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Plan
             </a>
             <a
-              href="#discord"
+              href={`${import.meta.env.VITE_DISCORD}`}
+              target="_blank"
               className="bg-green-600 px-1 rounded-md text-gray-200 hover:text-white transition-colors"
             >
               Discord
