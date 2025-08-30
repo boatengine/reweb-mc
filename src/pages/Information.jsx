@@ -1,4 +1,5 @@
 import React from "react";
+import Addwhitelist from "../components/Addwhitelist";
 
 export default function About() {
   const allWhitelist = [
@@ -33,17 +34,7 @@ export default function About() {
               <h3 className="text-xl font-bold mb-4">Add player</h3>
               <div className="flex flex-warp gap-2">
                 <div className="bg-gray-800  rounded-xl">
-                  <input
-                    type="text"
-                    className="pl-3 focus:outline-none "
-                    placeholder="enter your username"
-                  />
-                  <button
-                    type="submit"
-                    className="bg-green-500 rounded-r-xl px-3 p-2 cursor-pointer font-bold"
-                  >
-                    Add
-                  </button>
+                  <Addwhitelist />
                 </div>
               </div>
             </div>
