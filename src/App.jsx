@@ -4,9 +4,9 @@ import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
 import MobileMenu from "./components/MobileMenu";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Allplayer";
 import Information from "./pages/Information";
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 // const notify = () => toast(msg);
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
