@@ -32,8 +32,8 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">Add player</h3>
-              <div className="flex flex-warp gap-2">
-                <div className="bg-gray-800  rounded-xl">
+              <div className="inline-block">
+                <div className="bg-gray-800 rounded-xl">
                   <Addwhitelist />
                 </div>
               </div>
