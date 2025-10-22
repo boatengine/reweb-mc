@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
           ยินดีต้อนรับสู่ NoStack Minecraft server
-          เปิด/ปิดไม่มีเวลาแน่นอนแล้วแต่เจ้าของ5555+++++
+          เปิด/ปิดไม่มีเวลาแน่นอนแล้วแต่เจ้าของ55555
         </p>
         <div className="flex justify-center space-x-4">
           <a
